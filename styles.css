@@ -14,7 +14,7 @@ html {
 body {
     max-width: 100vw;
     overflow-x: hidden;
-}
+   }
 
 .row {
     width: 100%;
@@ -22,10 +22,6 @@ body {
     margin: 0 auto;
    }
 
-.menu--open {
-    max-height: 100vh;
-    overflow-y: hidden;
-}
   
 img {
     width: 100%;
@@ -54,6 +50,10 @@ a {
 p {
     font-size: 18px;
     line-height: 1.5;
+}
+
+button {
+    cursor: pointer;
 }
 
 /*NAVIGATION */
@@ -197,6 +197,7 @@ nav {
     overflow-y: hidden;
 }
 
+
 .menu--open .menu {
     visibility: visible;
     opacity: 1;
@@ -236,14 +237,11 @@ nav {
 }
 
 
-button {
-    cursor: pointer;
-}
 
 /* HEADER */
 
 section {
-    padding: 0 32px
+    padding: 0 32px;
 }
 
 header {
@@ -1067,6 +1065,10 @@ testimonial__button:hover {
 
 /* GET STARTED */
 
+#start {
+    position: relative;
+}
+
 main {
     margin-bottom: 96px;
 }
@@ -1144,27 +1146,30 @@ main {
 }
 
 
-
 .start__blob--1 {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    height: 20rem;
-    width: 20rem;
-    transform: translate(-5rem, 8rem);
+    height: 320px;
+    width: 320px;
+    transform: translate(-5rem, 2rem);
     color: rgb(80, 17, 204);
     opacity: 0.5;
+    
+    
 }
 
 .start__blob--2 {
     position: absolute;
     top: 0px;
     right: 0px;
-    height: 20rem;
-    width: 20rem;
-    transform: translate(5rem, -16rem);
+    height: 320px;
+    width: 320px;
+    transform: translate(5rem, -10rem);
     color: rgb(80,17,204);
     opacity: 0.5;
+    
+    
 }
 
 /* FOOTER */
@@ -1459,7 +1464,9 @@ footer {
     .testimonials__description {
         padding-left: 48px;
     }
-
+    #start {
+        position: relative;
+    }
     #start .container {
         padding-top: 5rem;
         padding-bottom: 5rem;
