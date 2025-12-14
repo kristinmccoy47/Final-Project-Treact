@@ -1,9 +1,8 @@
 function openMenu() {
-    document.body.classlist += " menu--open";
+    document.body.classlist.add("menu--open");
 }
 
 function closeMenu() {
-    document.body.classList.remove("menu--open");
+    document.body.classList.remove ("menu--open");
 }
 
-console.log ("mekdfj")

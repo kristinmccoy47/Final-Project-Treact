@@ -22,6 +22,10 @@ body {
     margin: 0 auto;
    }
 
+main {
+    overflow: hidden;
+}
+
   
 img {
     width: 100%;
@@ -596,6 +600,7 @@ header {
 
 .values__row {
     display: flex;
+    align-items: center;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -689,6 +694,8 @@ header {
 .values__img {
     width: 50%;
     max-width: 368px;
+    height: auto;
+    display: block;
 }
 
 /* PRICING*/
@@ -1069,6 +1076,7 @@ testimonial__button:hover {
     position: relative;
 }
 
+
 main {
     margin-bottom: 96px;
 }
@@ -1081,6 +1089,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .start__row {
@@ -1155,6 +1165,7 @@ main {
     transform: translate(-5rem, 2rem);
     color: rgb(80, 17, 204);
     opacity: 0.5;
+   
     
     
 }
@@ -1168,7 +1179,6 @@ main {
     transform: translate(5rem, -10rem);
     color: rgb(80,17,204);
     opacity: 0.5;
-    
     
 }
 
@@ -1541,6 +1551,15 @@ footer {
         .step__description {
             margin-top: 12px;
             margin-left: 0;
+        }
+
+        .values__row {
+            flex-direction: column;
+        }
+
+        .value__img {
+            width: 100%;
+            max-width: 500px;
         }
 
         .values__list {
